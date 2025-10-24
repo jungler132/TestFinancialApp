@@ -171,7 +171,7 @@ const HomeScreen: React.FC = () => {
               <UserIcon size={16} />
             </View>
             <Text style={styles.userName}>Charlotte</Text>
-            <Ionicons style={{marginTop:4}} name="chevron-forward" size={16} color="#FFFFFF" />
+            <Ionicons name="chevron-forward" size={16} color="#FFFFFF" style={{marginTop:4}} />
           </View>
           <View style={styles.headerRight}>
             <TouchableOpacity 

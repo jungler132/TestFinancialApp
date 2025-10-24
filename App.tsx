@@ -41,7 +41,7 @@ function MainTabs() {
             iconName = 'home';
           }
 
-          return <TabIcon name={iconName} focused={focused} size={size} />;
+          return <TabIcon name={iconName} focused={!!focused} size={size || 24} />;
         },
         tabBarActiveTintColor: '#FE5900',
         tabBarInactiveTintColor: '#FFFFFF',
